@@ -373,7 +373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012442026752, guid: 8631fae872618c44d99e2f58710ed073, type: 3}
-  multiplier: 5
+  multiplier: 2
 --- !u!4 &696042321
 Transform:
   m_ObjectHideFlags: 0
@@ -501,7 +501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crate: {fileID: 1000011275823026, guid: c4fa03dde2a5a52439028e5fba052e5c, type: 3}
-  n: 10
+  n: 2
   fold: 1
   dist: 1.5
 --- !u!4 &902671388

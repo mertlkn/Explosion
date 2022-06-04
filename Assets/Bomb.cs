@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 public class Bomb : MonoBehaviour
 {
@@ -29,6 +30,7 @@ public class Bomb : MonoBehaviour
 
     void explode() {
         var explosionObject = Instantiate(explosion, transform.position, transform.rotation);
+        Destroy(explosionObject,2f);
 
         Collider[] crates = Physics.OverlapSphere(transform.position,radius);
 
